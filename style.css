@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 82px;
+    height:82px;
+    margin-left: 8%;
+}
+.nav{
+    border-bottom: 2px solid rgb(227, 223, 223);
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(50, 49, 49);
+}
+.nav-bar1{
+    border: 2px solid rgb(5, 177, 65);
+    width: 58%;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-bar2{
+    border: 2px solid rgb(157, 6, 79);
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.nav-sec-elements{
+    width: 29%;
+    text-align: center;
+}
+.nav-sec-elements:hover{
+    cursor: pointer;
+}
+.nav-first-elements{
+    width: 50%;
+}
+.nav-first-elements:hover{
+    color: green;
+    cursor: pointer;
+}
+.signup{
+    color: white;
+    background-color: green;
+    width: 100%;
+    height: 40px;
+    border-radius: 18px;
+}
+.signup:hover{
+    background-color: rgb(10, 170, 10);
+    cursor: pointer;
+}
+.search{
+    width:16%;
+}
+.log{
+    width: 24%;
+}
+.sign{
+    width: 33%;
+}
+
+/* Second navigation bar */
+
+.sec-nav{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    height: 9vh;
+}
+.sec-nav > div{
+    width: 14%;
+    text-align: center;
+}
+.sec-nav a{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(50, 49, 49);
+    text-decoration: none;
+}
+.sec-nav  a:hover{
+    color: green;
+    text-decoration:underline;
+    cursor: pointer;
+}
+.more{
+    display: flex;
+    justify-content:center;
+}
+.head{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
