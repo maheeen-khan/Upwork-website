@@ -1,3 +1,6 @@
+:root{
+    --color:#14a800;
+}
 body{
     margin: 0;
     padding: 0;
@@ -17,7 +20,7 @@ body{
     color: rgb(50, 49, 49);
 }
 .nav-bar1{
-    border: 2px solid rgb(5, 177, 65);
+    border: 2px solid #14a800;
     width: 58%;
     display: flex;
     align-items: center;
@@ -42,18 +45,18 @@ body{
     width: 50%;
 }
 .nav-first-elements:hover{
-    color: green;
+    color: #14a800;
     cursor: pointer;
 }
 .signup{
     color: white;
-    background-color: green;
+    background-color: #14a800;
     width: 100%;
     height: 40px;
     border-radius: 18px;
 }
 .signup:hover{
-    background-color: rgb(10, 170, 10);
+    background-color: #27c911;
     cursor: pointer;
 }
 .search{
@@ -95,6 +98,51 @@ body{
 }
 .head{
     width: 100%;
-    background-color: white;
+    /* background-color: white; */
     position: fixed;
 }
+
+/* Main content */
+.main{
+    border: 20px solid red;
+}
+.main-elements{
+    border: 4px solid blue;
+    height: 25vh;
+}
+.main-element-1{
+    height: 25vh;
+    border: 4px solid rgb(190, 30, 145);
+}
+
+.main-element-2{
+    border: 4px solid rgb(190, 30, 145);
+    color: var(--color);
+    font-size: 37px;
+    font-family:sans-serif;
+}
+
+.main-element-3{
+    border: 4px solid rgb(190, 30, 145);
+}
+.main-element-3 > h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(90, 89, 89);
+
+}
+
+.start{
+    color: white;
+    background-color: #14a800;
+    border-radius: 18px;
+    height: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.start:hover{
+    background-color: #27c911;
+    cursor: pointer;
+}
+
