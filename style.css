@@ -1,5 +1,5 @@
 :root{
-    --color:#14a800;
+    --color:#108A00;
 }
 body{
     margin: 0;
@@ -20,7 +20,7 @@ body{
     color: rgb(50, 49, 49);
 }
 .nav-bar1{
-    border: 2px solid #14a800;
+    border: 2px solid var(--color);
     width: 58%;
     display: flex;
     align-items: center;
@@ -50,13 +50,13 @@ body{
 }
 .signup{
     color: white;
-    background-color: #14a800;
+    background-color: var(--color);
     width: 100%;
     height: 40px;
     border-radius: 18px;
 }
 .signup:hover{
-    background-color: #27c911;
+    background-color: #23b610;
     cursor: pointer;
 }
 .search{
@@ -104,7 +104,7 @@ body{
 
 /* Main content */
 .main{
-    border: 20px solid red;
+    width: 50%;
 }
 .main-elements{
     border: 4px solid blue;
@@ -112,19 +112,15 @@ body{
 }
 .main-element-1{
     height: 25vh;
-    border: 4px solid rgb(190, 30, 145);
 }
 
 .main-element-2{
-    border: 4px solid rgb(190, 30, 145);
-    color: var(--color);
+    color: #14A800;
     font-size: 37px;
     font-family:sans-serif;
+    height: 29vh;
 }
 
-.main-element-3{
-    border: 4px solid rgb(190, 30, 145);
-}
 .main-element-3 > h3{
     font-family: sans-serif;
     font-weight: lighter;
@@ -134,15 +130,49 @@ body{
 
 .start{
     color: white;
-    background-color: #14a800;
-    border-radius: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 14.5px;
+    background-color: var(--color);
+    border-radius: 20px;
     height: 40px;
+    width: 25%;
     padding-left: 2%;
     padding-right: 2%;
 
 }
 .start:hover{
-    background-color: #27c911;
+    background-color: #23b610;
     cursor: pointer;
 }
 
+h3{
+    color: rgb(172, 170, 170);
+    font-family: sans-serif;
+    font-size: 17px;
+    
+}
+.main-elements-5{
+    display: flex;
+}
+.logos{
+    border: 2px solid yellow;
+    height: 7vh;
+    width: 20%;
+}
+
+.image{
+    width: 40%;
+    height: 110vh;
+    display: flex;
+    align-items:center;
+}
+.image > img{
+    width: 100%;
+}
+.both-main{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid orangered; */
+    margin: 3%;
+}
