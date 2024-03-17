@@ -222,7 +222,6 @@ h3{
     height: 40px;
     border-radius: 18px;
     font-family: sans-serif;
-    font-family: sans-serif;
     font-size: 16px;
 }
 
@@ -290,4 +289,59 @@ cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Fourth portion */
+
+
+.fourth-image{
+    width: 45%;
+}
+.fourth-image > img{
+    width: 100%;
+    height:82vh;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.fourth-sec{
+    font-family: sans-serif;
+    color: white;
+    margin-top: 4%;
+}
+.fourth-together{
+    display: flex;
+    margin: 3%;
+}
+.both-items{
+    background-color: #13544E;
+    width: 50%;
+    padding: 3%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.fourth-items > h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+ 
+}
+.fourth-items > h1{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   line-height: 14px;
+}
+.fourth-head,.symbols{
+    color: #91E6B3;
+}
+.fourth-items > button{
+    background-color: white;
+    color: #13544E;
+    width: 29%;
+    height: 40px;
+    border-radius: 18px;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.fourth-items > button:hover{
+    cursor: pointer;
 }
