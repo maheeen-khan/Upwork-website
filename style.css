@@ -345,3 +345,24 @@ cursor: pointer;
 .fourth-items > button:hover{
     cursor: pointer;
 }
+
+/* Fifth - sec */
+
+.fifth-sec-1{
+    background-image: url(./images/find-talent-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 120vh;
+}
+.fifth-sec-1  h3{
+    color: white;
+}
+.fifth-sec-1 > img{
+    width: 100%;
+}
+.together-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
