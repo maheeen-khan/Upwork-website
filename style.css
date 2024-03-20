@@ -252,6 +252,7 @@ body {
 .sec-2 h1,
 .sixth-sec-1 h1,
 .sixth-sec-1 h2,
+.eight-sec-1 h1,
 .seventh-sec-head h1,
 .third-heading h1 {
     color: var(--darkgreencolor);
@@ -451,6 +452,10 @@ body {
     color: #13544E;
 }
 
+.fifth-sec-1 h1 {
+    font-size: 47px;
+}
+
 .box {
     background-color: var(--color);
     width: 100%;
@@ -576,4 +581,38 @@ body {
 .combine-seventh h5 {
     font-weight: lighter;
     font-size: 17px;
+}
+
+/* Eighth portion */
+
+.eighth-sec-2 {
+    color: rgb(99, 97, 97);
+}
+
+.eighth-sec-3 a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+.eighth-sec-3>button {
+    border-color: var(--color);
+    padding: 0.5% 2%;
+    border-radius: 30px;
+    margin: 5% 0.5%;
+}
+
+.combine-eighth {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 2%;
+}
+
+.eighth-thrice {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    border-radius: 9px;
+    background-color: #F7FAF7;
+    margin-top: 9%;
 }
