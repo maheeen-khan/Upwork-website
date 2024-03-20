@@ -252,6 +252,7 @@ body {
 .sec-2 h1,
 .sixth-sec-1 h1,
 .sixth-sec-1 h2,
+.seventh-sec-head h1,
 .third-heading h1 {
     color: var(--darkgreencolor);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -545,4 +546,34 @@ body {
     color: white;
     font-size: 30px;
 
+}
+
+/* Seventh portion */
+.seventh-sec {
+    background-color: #13544E;
+    color: white;
+    border-radius: 9px;
+    padding: 2%;
+}
+
+.seventh-sec-b {
+    background-color: #BC511B;
+    color: white;
+    border-radius: 9px;
+    padding: 2%;
+}
+
+.combine-seventh {
+    display: flex;
+    gap: 4%;
+    margin: 3%;
+}
+
+.seventh-sec-head {
+    margin: 3%;
+}
+
+.combine-seventh h5 {
+    font-weight: lighter;
+    font-size: 17px;
 }
