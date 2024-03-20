@@ -616,3 +616,39 @@ body {
     background-color: #F7FAF7;
     margin-top: 9%;
 }
+
+/* Ninth portion */
+
+.ninth-head {
+    color: #14a800;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.ninth-1 {
+    color: rgb(191, 209, 184);
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-top: 2%;
+}
+
+.ninth-1:hover,
+.ninth-sec-elements:hover,
+.ninth-third-elements:hover {
+    color: #14a800;
+    cursor: pointer;
+}
+
+.ninth-sec {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    margin-right: 6%;
+}
+
+.ninth-third-part,
+.ninth-sec-part {
+
+    color: rgb(114, 113, 113);
+    font-size: 23px;
+}
