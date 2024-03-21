@@ -652,3 +652,37 @@ body {
     color: rgb(114, 113, 113);
     font-size: 23px;
 }
+
+/* Tenth portion */
+
+.tenth-sec{
+    border: 3px solid rgb(253, 7, 7);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    background-color: #001E00;
+    color: white;
+    padding: 2%;
+}
+.tenth-first{
+    border: 2px solid blue;
+}
+.tenth-second{
+    border: 2px solid rgb(74, 179, 9);
+}
+.tenth-third{
+    border: 2px solid rgb(148, 10, 47);
+}
+.tenth-fourth{
+    border: 2px solid rgb(209, 154, 13);
+}
+/* Tenth Portion */
+
+.tenth-bottom{
+    background-color: #001E00;
+    color: white;
+}
+.bottom-elements > img{
+    width: 4%;
+    height: 4%;
+}
