@@ -655,34 +655,70 @@ body {
 
 /* Tenth portion */
 
-.tenth-sec{
-    border: 3px solid rgb(253, 7, 7);
+.tenth-sec {
     display: flex;
     justify-content: space-evenly;
     font-size: 15px;
     background-color: #001E00;
     color: white;
-    padding: 2%;
+    padding: 5% 2%;
+    border-radius: 9px;
 }
-.tenth-first{
-    border: 2px solid blue;
-}
-.tenth-second{
-    border: 2px solid rgb(74, 179, 9);
-}
-.tenth-third{
-    border: 2px solid rgb(148, 10, 47);
-}
-.tenth-fourth{
-    border: 2px solid rgb(209, 154, 13);
-}
+
+
 /* Tenth Portion */
 
-.tenth-bottom{
-    background-color: #001E00;
+.tenth-corner,
+.tenth-bottom {
+    color: white;
+    display: flex;
+
+}
+
+.tenth-corner img,
+.bottom-elements>img {
+    width: 88%;
+    height: 88%;
+}
+
+.bottom-elements {
+    width: 6%;
+}
+
+.follow {
+    width: 12%;
+}
+
+.tenth-corner-1,
+.tenth-corner-2 {
+    width: 100%;
+}
+
+.tenth-bottom-combine {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.tenth-corner {
+    width: 60%;
+}
+
+.end {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding-bottom: 4%;
+}
+
+.end a {
+    text-decoration: none;
     color: white;
 }
-.bottom-elements > img{
-    width: 4%;
-    height: 4%;
+
+.tenth-portion {
+    margin: 3%;
+    border-radius: 9px;
+    background-color: #001E00;
 }
