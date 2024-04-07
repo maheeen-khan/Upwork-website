@@ -689,27 +689,30 @@ body {
 .tenth-bottom {
     color: white;
     display: flex;
-
+    height: 8vh;
 }
 
-.tenth-corner img,
 .bottom-elements>img {
     width: 88%;
     height: 88%;
 }
-
+.tenth-corner img{
+    width: 100%;
+    height:100%;
+}
 .bottom-elements {
-    width: 6%;
+    width: 20%;
+    height: inherit;
 }
 
 .follow {
     width: 12%;
 }
 
-.tenth-corner-1,
+/* .tenth-corner-1,
 .tenth-corner-2 {
     width: 100%;
-}
+} */
 
 .tenth-bottom-combine {
     display: flex;
@@ -718,9 +721,14 @@ body {
 }
 
 .tenth-corner {
-    width: 60%;
+    width: 30%;
+    justify-content: flex-end;
 }
-
+.insta{
+    width: 90px;
+    height:inherit;
+    margin-left: 25px;
+}
 .end {
     color: white;
     display: flex;
